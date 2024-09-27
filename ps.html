@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card-left">
+            <div class="main-image">
+              
+                    <img src="1.jpg">
+                    <img src="2.jpg">
+                    <img src="3.jpg" >
+                    <img src="4.jpg" >
+               
+            </div>
+            <div class="img-select">
+                <div class="img active">
+                    <a href="#" data-id="1"><img src="1.jpg"></a>
+                </div>
+                <div class="img">
+                    <a href="#" data-id="2"><img src="2.jpg"></a>
+                </div>
+                <div class="img ">
+                    <a href="#" data-id="3"><img src="3.jpg"></a>
+                </div>
+                <div class="img ">
+                    <a href="#" data-id="4"><img src="4.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="card-right">
+            <h2>GRAND WEDDING TISSUE SILK SAREE </h2>
+            <div class="star">
+                <div class="star-group">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                <span>433 Reviews</span>    
+                </div>
+            </div>
+                <h4>$1700 <span>$2000</span></h4>
+                
+                <p>
+                    <ion-icon name="sunny"></ion-icon>
+                     <span>Exclusive kanchipuram  silk sarees</span> 
+                    <ion-icon name="sunny"></ion-icon> <br></ion-icon><ion-icon name="rose"></ion-icon> zari double weave brocade bosyy<br></ion-icon><ion-icon name="rose"></ion-icon> Elegant jari work <br></ion-icon><ion-icon name="rose"></ion-icon>rich pallu<br></ion-icon><ion-icon name="rose"></ion-icon>Attractive Contrast  blouse<br>
+                </p>
+                
+                <div class="form">
+                    <div class="form-group">
+                        <label >Color</label>
+                        <select >
+                            <option >Red</option>
+                            <option value="Blue">Blue</option>
+                            <option value="">Gold</option>
+                            <option selected>Green</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label >Quantity</label>
+                        <div class="input-group">
+                            <button class="minus">-</button>
+                            <input type="text" value="1" id="qty">
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
+
+
